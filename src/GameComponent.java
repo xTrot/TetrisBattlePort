@@ -14,6 +14,7 @@ public class GameComponent extends JComponent implements GameView  {
 	private Showcase nextShowcase;
 	private Showcase storedShowcase;
 	private boolean isHost;
+	
 //	private PlayGrid playGrid;
 	
 
