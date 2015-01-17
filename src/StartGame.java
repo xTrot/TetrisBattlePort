@@ -7,7 +7,7 @@ import javax.swing.JFrame;
 public class StartGame {
 
 	private static JFrame jFrame;
-	private static GameViewPanel gvp;
+	private static GameComponent gc;
 
 	public static void main(String[] args) {
 		jFrame = new JFrame("Tetris Battle");
@@ -17,9 +17,9 @@ public class StartGame {
 		jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		// TODO Game Setup goes here.
-		gvp = new GameViewPanel(true);
-		jFrame.add(gvp);
-		
+		gc = new GameComponent(true);
+		jFrame.add(gc);
+
 		jFrame.setVisible(true);
 	}
 
