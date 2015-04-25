@@ -29,6 +29,12 @@ public class Grid implements Iterable<Block> {
 			return blockArray[current%dim.width]
 					[current/dim.height].toBlock();
 		}
+
+		@Override
+		public void remove() {
+			// TODO Auto-generated method stub
+			
+		}
 		
 	}
 	
